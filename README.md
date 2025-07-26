@@ -1,7 +1,7 @@
-Weather App⛅
+Weather App⛅<br>
 •A responsive web application for real-time weather information with glassmorphism UI design.
 
-Features
+Features<br>
 ✅Real-time weather data via OpenWeatherMap API
 ✅Responsive design with animated SVG icons
 ✅Comprehensive weather metrics (temperature, humidity, wind, pressure, visibility)
