@@ -11,6 +11,8 @@ Tech Stack<br>
 HTML5, CSS3, JavaScript<br>
 OpenWeatherMap API
 
-Installation
+Installation<br>
 Clone repository:
 https://github.com/upeka200163/Wether-App.git
+<img width="1366" height="640" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/09303904-cd98-498d-b4e0-58b13c7c4b4c" />
+
