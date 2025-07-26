@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false" id="searchInput">
+            <button id="searchBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                    <path d="m21 21-4.35-4.35" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+        
+        <div class="error" id="error">
+            <p>Invalid city name. Please try again.</p>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+        
+        <div class="weather" id="weather">
+            <div class="weather-icon" id="weatherIcon">
+                
+                <svg class="icon sunny" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="40" fill="#FFD700"/>
+                    <g stroke="#FFD700" stroke-width="4" stroke-linecap="round">
+                        <line x1="100" y1="20" x2="100" y2="40"/>
+                        <line x1="100" y1="160" x2="100" y2="180"/>
+                        <line x1="20" y1="100" x2="40" y2="100"/>
+                        <line x1="160" y1="100" x2="180" y2="100"/>
+                        <line x1="42.4" y1="42.4" x2="57.6" y2="57.6"/>
+                        <line x1="142.4" y1="142.4" x2="157.6" y2="157.6"/>
+                        <line x1="157.6" y1="42.4" x2="142.4" y2="57.6"/>
+                        <line x1="57.6" y1="142.4" x2="42.4" y2="157.6"/>
+                    </g>
+                </svg>
+            </div>
+            
+            <h1 class="temp" id="temperature">22°C</h1>
+            <h2 class="city" id="cityName">New York</h2>
+            <p class="description" id="weatherDescription">Clear Sky</p>
+            
+            <div class="details">
+                <div class="col">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" fill="#4A90E2"/>
+                        <circle cx="12" cy="12" r="3" fill="#87CEEB"/>
+                    </svg>
+                    <div>
+                        <p class="humidity" id="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                        <path d="M3 12h3m12-9 2 2-2 2M9 7l2 2-2 2m10 5h-3M9 17l2-2-2-2" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <div>
+                        <p class="wind" id="windSpeed">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="extra-details">
+                <div class="detail-item">
+                    <span class="label">Feels like:</span>
+                    <span class="value" id="feelsLike">25°C</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Pressure:</span>
+                    <span class="value" id="pressure">1013 hPa</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Visibility:</span>
+                    <span class="value" id="visibility">10 km</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
