@@ -6,8 +6,7 @@ Built with a stylish *glassmorphism UI* and *animated SVG icons* for a seamless 
 
 ## 🖼 Preview
 
-![Weather App Screenshot](<img width="1366" height="640" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/dc791322-97d4-4baf-b2f0-bac6b27915a9" />
-) 
+(<img width="1366" height="640" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/dc791322-97d4-4baf-b2f0-bac6b27915a9" />) 
 
 ---
 
