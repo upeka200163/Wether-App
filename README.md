@@ -1,18 +1,25 @@
-Weather App⛅<br>
-•A responsive web application for real-time weather information with glassmorphism UI design.
+# ⛅ Weather App
+A modern, responsive web app that displays real-time weather using the OpenWeatherMap API. Built with a sleek glassmorphism UI and animated SVG icons.
 
-Features<br>
-✅Real-time weather data via OpenWeatherMap API<br>
-✅Responsive design with animated SVG icons<br>
-✅Comprehensive weather metrics (temperature, humidity, wind, pressure, visibility)<br>
-✅Fallback data for offline functionality.<br>
+---
 
-Tech Stack<br>
-HTML5, CSS3, JavaScript<br>
-OpenWeatherMap API
+## 🚀 Features
+- Live weather data (temperature, humidity, wind, etc.)
+- Glassmorphism design & responsive layout
+- Animated SVG weather icons
+- Offline fallback for demo/testing
 
-Installation<br>
-Clone repository:<br>
-https://github.com/upeka200163/Wether-App.git
+---
+
+## 🛠 Tech Stack
+- HTML5 + CSS3
+- JavaScript (ES6)
+- OpenWeatherMap API
+
+---
+
+## 🧪 How to use
+```bash
+git clone https://github.com/upeka200163/Wether-App.git
 <img width="1366" height="640" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/09303904-cd98-498d-b4e0-58b13c7c4b4c" />
 
